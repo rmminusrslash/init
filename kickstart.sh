@@ -87,8 +87,8 @@ cp $DOTFILE_REPO/.ssh/config ~/.ssh/config
 cp $DOTFILE_REPO/.zshrc ~/
 cp $DOTFILE_REPO/.vimrc ~/
 cp $DOTFILE_REPO/istats.ismp ~/
-mkdir -p ~/Library/Application Support/iTerm2/DynamicProfiles
-cp $DOTFILE_REPO/iTerm2/profiles.json ~/Library/Application Support/iTerm2/DynamicProfiles
+mkdir -p ~/Library/Application\ Support/iTerm2/DynamicProfiles
+cp $DOTFILE_REPO/iTerm2/profiles.json ~/Library/Application\ Support/iTerm2/DynamicProfiles
 
 # Install all needed software
 echo "⚙️ Installing all needed software..."
